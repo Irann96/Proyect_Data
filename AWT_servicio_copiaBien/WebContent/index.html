@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Web-Services</title>
+
+</head>
+<body bgcolor="#D6EAF8">
+<div align="center">
+<img alt="Cargar imagen" src="imagenes/TecNM.png" width="150" height="100" align="left">
+<img alt="Cargar imagen" src="imagenes/Logo.png" width="100" height="100" align="right">
+</div>
+	<div align="center" style="color: darkblue">
+	<br> <br>
+	<FONT SIZE=10>Tablero de control de una BD de un Hospital</font><br>
+	<FONT SIZE=7> Integración e Interoperabilidad de Datos Hospitalarios en Línea y Tiempo Real </font> <br>
+	<FONT SIZE=6>Instituto Tecnológico de Morelia</font><br>
+	</div>
+
+<br><br><br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" >
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+<body>
+
+<p> </p>
+<div class="row" align="center" >
+  <div class="column" style="background-color:#E8DAEF;" >
+    <!-- <h1> <font color="darkblue" >Empleados </font> </h1>  -->
+    <FONT SIZE=6 color="darkblue">Paciente </font>
+    <!-- <font color="blue" >Empleados azul</font> -->
+    <p></p>
+    
+    
+   <h2> <a href = "altasPacientes.html"> Altas de pacientes: </a>  </h2> 
+    
+    <p> </p>    
+    <h2>  <a href = "http://localhost:8090/AWT_servicio/rest/nickclass/consultapacientes"> Consulta de pacientes </a>
+    </h2>
+    
+  </div>
+  <div class="column" style="background-color:#FADBD8;">
+    <!--  <h1><font color="darkblue" >Citas </font></h1> -->
+    <FONT SIZE=6 color="darkblue">Médico </font>
+    <p></p>
+    <h2><a href = "altasMedicos.html">Alta de médicos</a></h2>
+    <h2><a href = "http://localhost:8090/AWT_servicio/rest/nickclass/consultamedico">Consulta de medico</a></h2>
+  </div>
+  
+  <div class="column" style="background-color:#AFEEEE;">
+  <!--    <h1><font color="darkblue" >Clientes </font></h1> -->
+    <FONT SIZE=6 color="darkblue">Historial Clínico </font>
+    <p></p>
+    <h2><a href = "altasHistorialClinico.html"> Alta de Historial Clínico </a> </h2>
+    <h2><a href = "http://localhost:8090/AWT_servicio/rest/nickclass/consultahistorialclinico"> Consulta del Historial Clínico</a></h2>
+  </div>
+  
+  <div class="column" style="background-color:#dddddd;">
+    <!--  <h1><font color="darkblue" >Servicios </font></h1> -->
+    <FONT SIZE=6 color="darkblue">Estudios </font>
+    <p></p>
+    <h2><a href = "altasEspecialidades.html">Alta de estudios </a></h2>
+    <h2><a href = "http://localhost:8090/AWT_servicio/rest/nickclass/consultaestudios">Consulta de estudios </a></h2>
+  </div>
+</div>
+
+
+<p> </p>
+<div class="row" align="center" >
+  <div class="column" style="background-color:#E8DAEF;" >
+    <!-- <h1> <font color="darkblue" >Empleados </font> </h1>  -->
+    <FONT SIZE=6 color="darkblue">Especialidades </font>
+    <!-- <font color="blue" >Empleados azul</font> -->
+    <p></p>
+    
+    
+   <h2> <a href = "altasEspecialidades.html"> Altas de especialidades: </a>  </h2> 
+    
+    <p> </p>    
+    <h2>  <a href = "http://localhost:8090/AWT_servicio/rest/nickclass/consultaespecialidades"> Consulta de especialidades </a>
+    </h2>
+    
+  </div>
+  <div class="column" style="background-color:#FADBD8;">
+    <!--  <h1><font color="darkblue" >Citas </font></h1> -->
+    <FONT SIZE=6 color="darkblue">Consultorio </font>
+    <p></p>
+    <h2><a href = "altasConsultorio.html">Alta de consultorios</a></h2>
+    <h2><a href = "http://localhost:8090/AWT_servicio/rest/nickclass/consultaconsultorio">Consulta de consultorio</a></h2>
+  </div>
+  
+  <div class="column" style="background-color:#AFEEEE;">
+  <!--    <h1><font color="darkblue" >Clientes </font></h1> -->
+    <FONT SIZE=6 color="darkblue">Historial Citas </font>
+    <p></p>
+    <h2><a href = "altasCitas.html"> Alta de citas </a> </h2>
+    <h2><a href = "http://localhost:8090/AWT_servicio/rest/nickclass/consultacitas"> Consulta de citas</a></h2>
+  </div>
+  
+<!--<div> 
+<h2>
+Empleados
+ Operaciones con empleados 
+</h2>
+  
+<p>
+<a href = "altasPeluqueros.html"> Altas de Empleado de la estetica: </a>
+</p>
+<br>
+<a href = "http://localhost:8090/AWT_servicio/rest/nickclass/consultapeluqueros"> Consulta de Empleados: </a>
+</div>
+
+<div align="center">
+<img alt="Cargar imagen" src="imagenes/Logo.png" width="300" height="300">
+</div>
+-->
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Alta de Clientes</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1" >
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+
+<body style="background-color:#AFEEEE;">
+
+<div align="center">
+<img alt="Cargar imagen" src="imagenes/TecNM.png" width="150" height="100" align="left">
+<img alt="Cargar imagen" src="imagenes/Logo.png" width="100" height="100" align="right">
+
+
+<h1>
+Altas de Clientes usando Web-Services
+</h1>
+
+</div>
+<br> <br> <br>
+<!--  <form action="http://localhost:8090/AWT_servicio/rest/nickclass/nickmethod?">
+Nombre: <input type="text" name="nombre"> <br> <br>
+Direccion: <input type="text" name="direccion"> <br> <br>
+Telefono: <input type="text" name="telefono"> <br> <br>
+Email: <input type="text" name="email"> <br> <br>
+<input type="submit" value="Enviar datos"> <br> <br>
+</form> -->
+<form action="http://localhost:8090/AWT_servicio/rest/nickclass/nickmethod?">
+<div class="column" style="background-color:#AFEEEE;" > </div>
+
+<div class="row" align="center" >
+  <div class="column" style="background-color:#AFEEEE;" >
+    <!-- <h1> <font color="darkblue" >Empleados </font> </h1>  -->
+    <!-- <font color="blue" >Empleados azul</font> -->
+    <p></p>    
+   <h2> <font SIZE=4 color="darkblue"> Nombre <br> Direcci&oacuten <br> Tel&eacutefono <br> e-mail <br> </font> </h2> 
+    <p> </p>    
+  </div>
+
+<div class="column" style="background-color:#AFEEEE;">
+    <!--  <h1><font color="darkblue" >Citas </font></h1> -->
+   
+ <p></p>
+<h2>   <input type="text" name="nombre"> <br> <input type="text" name="direccion"> <br> 
+<input type="text" name="telefono"> <br> <input type="text" name="email"> <br>
+<input type="submit" value="Enviar datos"> <br>
+ </h2> 
+ <a href = 'http://localhost:8090/AWT_servicio/index.html' align="down"> Men&uacute principal </a>
+ 
+     </div>
+</form>
+
+</body>
+</html>
